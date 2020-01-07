@@ -1,0 +1,14 @@
+{
+  "name": "mesh_destruction",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "mkdir -p dist; cp -rnv obj dist; npx parcel index.html"
+  },
+  "author": "djosix",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "three": "^0.111.0"
+  }
+}

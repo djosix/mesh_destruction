@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Mesh Destruction</title>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
+		body {
+			margin: 0;
+			background-color: #000;
+			color: #fff;
+			font-family: Monospace;
+			font-size: 13px;
+			line-height: 24px;
+			overscroll-behavior: none;
+		}
+
+		#panel {
+			position: fixed;
+			z-index: 1;
+			margin: 5px;
+			padding: 0px;
+			line-height: unset;
+		}
+
+		#obj {
+			color: white;
+			border: 1px solid white;
+			background-color: black;
+			font-size: 12px;
+			font-family: monospace;
+			padding: 3px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="panel">
+		<input id="obj" type="text" placeholder="obj file name" value="obj/1.obj">
+		<br>
+		<button id="load-btn" type="button">[L]oad</button>
+		<button id="destruct-btn" type="button">[D]estruct</button>
+	</div>
+	<script src="./js/main.js"></script>
+
+</html>
