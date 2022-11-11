@@ -3,5 +3,6 @@
 ```shell
 git clone https://github.com/djosix/mesh_destruction.git
 cd mesh_destruction
-yarn run serve
+yarn install --frozen-lockfile
+yarn dev
 ```

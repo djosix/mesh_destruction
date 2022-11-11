@@ -1,26 +1,12 @@
 import * as THREE from 'three';
 
-import {
-  GUI
-} from 'three/examples/jsm/libs/dat.gui.module.js';
-import {
-  OrbitControls
-} from 'three/examples/jsm/controls/OrbitControls.js';
-import {
-  OBJLoader
-} from 'three/examples/jsm/loaders/OBJLoader.js';
-import {
-  EffectComposer
-} from 'three/examples/jsm/postprocessing/EffectComposer.js';
-import {
-  RenderPass
-} from 'three/examples/jsm/postprocessing/RenderPass.js';
-import {
-  UnrealBloomPass
-} from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
-import {
-  Program
-} from './program';
+import { GUI } from 'three/examples/jsm/libs/dat.gui.module.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
+import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
+import { Program } from './program';
 
 
 function main() {

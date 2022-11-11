@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+// import { Geometry } from 'three';
 
 THREE.Geometry.prototype.setNeedUpdate = function () {
   this.verticesNeedUpdate = true;
